@@ -1,0 +1,85 @@
+/*
+Theme Name: Imax Amauze
+Text Domain: imaxamauze
+Author: shantos-blackbox.com
+Theme URI: shantos-blackbox.com/themes/imaxamauze/
+Requires PHP: 5.2.4
+Description: Our First Hyperminimal Theme
+Version: 1.0.1
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline {
+    font-family: Arial;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p {
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post p img {
+    width: 100%;
+    height: auto;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2) {
+    border-bottom: none;
+}
+
+.post-pagination {
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color: #ccc;
+}
+
+.tags li {
+    color: #3D9970;
+}
